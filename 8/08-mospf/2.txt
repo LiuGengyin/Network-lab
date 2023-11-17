@@ -1,0 +1,467 @@
+DEBUG: find the following interfaces:  r2-eth0 r2-eth1.
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.2.1	
+10.0.6.0	255.255.255.0	10.0.2.1	
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.2.1	
+10.0.6.0	255.255.255.0	10.0.2.1	
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.2.1	
+10.0.6.0	255.255.255.0	10.0.2.1	
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.2.1	
+10.0.6.0	255.255.255.0	10.0.2.1	
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+DEBUG: sweep db
+
+DEBUG: regen_rtable when chk db
+
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+DEBUG: regen succeeded when chk db
+
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.1.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.3.0	255.255.255.0	10.0.2.1	r2-eth0
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+DEBUG: sweep nbr
+
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+DEBUG: sweep db
+
+DEBUG: regen_rtable when chk db
+
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+DEBUG: regen succeeded when chk db
+
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Routing Table:
+dest	mask	gateway	if_name
+--------------------------------------
+10.0.2.0	255.255.255.0	0.0.0.0	r2-eth0
+10.0.4.0	255.255.255.0	0.0.0.0	r2-eth1
+10.0.5.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.6.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.3.0	255.255.255.0	10.0.4.4	r2-eth1
+10.0.1.0	255.255.255.0	10.0.4.4	r2-eth1
+--------------------------------------
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
+Send raw packet failed: Network is down
